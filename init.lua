@@ -14,3 +14,4 @@ require "scott.telescope"
 require "scott.lualine"
 require "scott.indentline"
 require "scott.whichkey"
+--[[ require "scott.toggleterm" ]]
