@@ -63,14 +63,3 @@ vim.keymap.set("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
 vim.keymap.set("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 vim.keymap.set("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
--- Nvimtree
-vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
-
--- Telescope
-vim.keymap.set("n", "<leader>ff", function () require("telescope.builtin").find_files() end, opts)
-vim.keymap.set("n", "<leader>fg", function () require("telescope.builtin").live_grep() end, opts)
-vim.keymap.set("n", "<leader>fb", function () require("telescope.builtin").buffers() end, opts)
-vim.keymap.set("n", "<leader>fh", function () require("telescope.builtin").help_tags() end, opts)
-
-
-
